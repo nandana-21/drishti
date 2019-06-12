@@ -9,23 +9,28 @@ raise her as their own child and assume all the responsibility for her
     ii) The person giving in adoption is lawfully capable of giving in adoption.
     iii)The person adopted is lawfully capable of being taken in adoption.
     
-  Who MAY ADOPT A CHILD? 
+  Who MAY ADOPT A CHILD
     i) An Indian
     ii) Non Resident Indian 
     iii) A foreign citizen A single female (unmarried, widowed or divorced) or a married couple
-    
-    
-CAPACITY TO GIVE THE CHILD FOR ADOPTION 
-i)Father or mother or guardian of the child. 
-ii) The father alone if mother has completely and finally renounced the world or has ceased to be a Hindu, or has been declared by a court of competent jurisdiction to be of unsound mind. 
-iii) The mother may give the child in adoption if the father is dead or has completely and finally renounced the world or has ceased to be a Hindu, or has been declared by a court of competent jurisdiction to be of unsound mind. 
-iv) Where both the father and mother are dead or have completely and finally renounced the world or have abandoned the child or have been declared by a court of competent jurisdiction to be of unsound mind or where the parentage of the child is unknown - the guardian of the child may give the child in adoption with the previous permission of the court.
 
-CONDITIONS TO BE FULFILLED BY AN ADOPTIVE PARENT 
- i Medically fit and financially able to care for a child 
-ii Must be at least 21 years old 
-iii No legal upper age limit for parents 
-iv Adoption of the older children, age of the parents may be relaxed 
-v Adopted child with special needs, the age limit may be relaxed 
-vi If the adoption is of a son, the adoptive father or mother by whom the adoption is made must not have a son living at the time of adoption. 
-vii If the adoption is of a daughter, the adoptive father or mother by whom the adoption is made must not have a daughter living at the time of adoption.
+    
+    
+Who is eligible to adopt a child?
+The prospective adoptive parents should be physically, mentally and emotionally stable; financially capable; motivated to adopt a child; and should not have any life threatening medical condition;
+Any prospective adoptive parent, irrespective of his marital status and whether or not he has his own biological son or daughter, can adopt a child;
+Single female is eligible to adopt a child of any gender:
+Single male person shall not be eligible to adopt a girl child;
+In case of a couple, the consent of both spouses shall be required;
+No child shall be given in adoption to a couple unless they have at least two years of stable marital relationship;
+The age of prospective adoptive parents as on the date of registration shall be counted for deciding the eligibility and the eligibility of prospective adoptive parents to apply for children of different age groups shall be as under
+
+Age of the child	 ,,,       Maximum composite age of prospective adoptive parents	 ,,,       Maximum age of single prospective adoptive parent	
+Upto 4 years	   ,,           90 years       ,,                                                 	45 years	,,
+Above 4 upto 8 years	 ,,     100 years	      ,,                                                 50 years	,,
+Above 8 upto 18 years	,,     110 years	      ,,                                                 55 years	,,
+
+
+The minimum age difference between the child and either of the prospective adoptive parents should not be less than twenty five years;
+The age for eligibility will be as on the date of registration of the prospective adoptive parents;
+Couples with more than four children shall not be considered for adoption;
