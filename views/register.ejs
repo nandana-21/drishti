@@ -43,6 +43,9 @@
   	<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
       <link rel="stylesheet" href="/css/main.css" />
 
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/product.css">
+
   	<!-- Bootstrap Switch CSS -->
   	<link rel="stylesheet" href="/css/components/bs-switches.css" type="text/css" />
 
@@ -78,6 +81,14 @@
               >Parent</a
             >
           </li>
+                    </li>
+              <li class="main-header__item">
+            <a
+              class="<%= path === '/main' ? 'active' : '' %>"
+              href="/admin/register"
+              >Stepper</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -94,7 +105,7 @@
       <div class="container clearfix">
       <div class="col-md-7">
       <br> <h2> Parent Details: </h2><br>
-      <form>
+      <form >
         <h4>Marital Status:</h4>
         <div>
           <input id="radio-9" class="radio-style" name="radio-group-1" type="radio">
@@ -170,6 +181,7 @@
           <input id="radio-24" class="radio-style" name="radio-group-1" type="radio">
           <label for="radio-24" class="radio-style-1-label">>2</label>
         </div>
+         
       </form> </div>
 
       <div class="col-md-4">
@@ -204,7 +216,7 @@
         </div>
       </div>
     </form>
-    <form>
+    <form action="/admin/register" method="POST">
         <h4>Gender</h4>
         <div>
           <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
@@ -218,6 +230,9 @@
           <input id="radio-8" class="radio-style" name="radio-group-1" type="radio">
           <label for="radio-8" class="radio-style-1-label">Doesn't Matter</label>
         </div>
+        <div class="card__actions">
+            <button class="btn">Submit</button>
+         </div>
 
       </form> </div>
     </div>

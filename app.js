@@ -14,11 +14,19 @@ const parentRoutes = require("./routes/parent");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, "public")));
 
+
+
+
 app.use("/admin", parentRoutes);
 app.use("/", childRoutes);
 
 app.use((req, res, next) => {
-  res.status(404).render("404", { pageTitle: "Page Not Found" });
+  res.render("child", {
+    pageTitle: "Child",
+    path: "/child",
+    activeChild: true,
+    productCSS: true
+  });
 });
 
 app.listen(3000);

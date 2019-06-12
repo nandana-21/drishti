@@ -43,7 +43,9 @@
   	<link rel="stylesheet" href="/css/font-icons.css" type="text/css" />
   	<link rel="stylesheet" href="/css/animate.css" type="text/css" />
   	<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
-      <link rel="stylesheet" href="/css/main.css" />
+      <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/product.css">
 
   	<!-- Bootstrap Switch CSS -->
   	<link rel="stylesheet" href="/css/components/bs-switches.css" type="text/css" />
@@ -81,6 +83,14 @@
               >Parent</a
             >
           </li>
+            </li>
+              <li class="main-header__item">
+            <a
+              class="<%= path === '/main' ? 'active' : '' %>"
+              href="/admin/register"
+              >Stepper</a
+            >
+          </li>
         </ul>
       </nav>
 </header>
@@ -98,7 +108,7 @@
 
         <div class="col-md-7">
         <br><h2> Child Details: </h2><br>
-        <form>
+        <form action="/" method="POST">
           <div>
           <h4>Child Age:</h4>
           <div>
@@ -114,8 +124,7 @@
             <label for="radio-3" class="radio-style-1-label">10-18</label>
           </div>
         </div>
-      </form>
-      <form>
+
           <div>
           <h4>Medical Conditions:</h4>
           <div>
@@ -127,8 +136,7 @@
             <label for="radio-5" class="radio-style-1-label">Doesn't Matter (Exposed to physcial or mental trauma will also be included)</label>
           </div>
         </div>
-      </form>
-      <form>
+
           <h4>Gender</h4>
           <div>
             <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
@@ -142,6 +150,9 @@
             <input id="radio-8" class="radio-style" name="radio-group-1" type="radio">
             <label for="radio-8" class="radio-style-1-label">Doesn't Matter</label>
           </div>
+        <div class="card__actions">
+              <button class="btn">Submit</button>
+        </div>
 
         </form> </div>
 
@@ -204,7 +215,7 @@
           <label for="radio-20" class="radio-style-1-label">Couple-110</label>
         </div>
       </form>
-      <form>
+      <form actions="/subDet" method="POST">
 
         <h4>Years Married: (0 if not applicable)</h4>
         <div>
@@ -222,6 +233,9 @@
         <div>
           <input id="radio-24" class="radio-style" name="radio-group-1" type="radio">
           <label for="radio-24" class="radio-style-1-label">>2</label>
+        </div>
+        <div class="card__actions">
+              <button class="btn">Submit</button>
         </div>
       </form> </div>
 
