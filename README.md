@@ -10,10 +10,10 @@ raise her as their own child and assume all the responsibility for her
     iii)The person adopted is lawfully capable of being taken in adoption.
     
   Who MAY ADOPT A CHILD
-  
     i) An Indian
     ii) Non Resident Indian 
     iii) A foreign citizen A single female (unmarried, widowed or divorced) or a married couple
+
     
     
 Who is eligible to adopt a child?
@@ -25,10 +25,11 @@ In case of a couple, the consent of both spouses shall be required;
 No child shall be given in adoption to a couple unless they have at least two years of stable marital relationship;
 The age of prospective adoptive parents as on the date of registration shall be counted for deciding the eligibility and the eligibility of prospective adoptive parents to apply for children of different age groups shall be as under
 
-Age of the child	      Maximum composite age of prospective adoptive parents	        Maximum age of single prospective adoptive parent	
+Age of the child	        Maximum composite age of prospective adoptive parents	        Maximum age of single prospective adoptive parent	
 Upto 4 years	              90 years                                                        	45 years	
 Above 4 upto 8 years	      100 years	                                                       50 years	
 Above 8 upto 18 years	     110 years	                                                       55 years	
+
 
 The minimum age difference between the child and either of the prospective adoptive parents should not be less than twenty five years;
 The age for eligibility will be as on the date of registration of the prospective adoptive parents;
