@@ -1,0 +1,222 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>pageTitle </title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+   
+
+    <main>
+      <form class="product-form" action="/admin/register" method="POST">
+        <div class="form-control">
+          <label for="title">Title</label>
+          <input type="text" name="title" id="title" />
+        </div>
+
+        <button class="btn" type="submit">Add Product</button>
+      </form>
+    </main>
+    
+  </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  	<meta name="author" content="SemiColonWeb" />
+
+  	<!-- Stylesheets
+  	============================================= -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+  	<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
+  	<link rel="stylesheet" href="style.css" type="text/css" />
+  	<link rel="stylesheet" href="/css/dark.css" type="text/css" />
+  	<link rel="stylesheet" href="/css/font-icons.css" type="text/css" />
+  	<link rel="stylesheet" href="/css/animate.css" type="text/css" />
+  	<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
+      <link rel="stylesheet" href="/css/main.css" />
+
+  	<!-- Bootstrap Switch CSS -->
+  	<link rel="stylesheet" href="/css/components/bs-switches.css" type="text/css" />
+
+  	<!-- Radio Checkbox Plugin -->
+  	<link rel="stylesheet" href="/css/components/radio-checkbox.css" type="text/css" />
+
+    <link rel="stylesheet" href="/css/responsive.css" type="text/css" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- Document Title
+	============================================= -->
+	<title>Adoptions Made Easy!</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+  <header class="main-header">
+      <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+          <li class="main-header__item">
+            <a class="<%= path === '/' ? 'active' : '' %>" href="/">Child</a>
+          </li>
+          <li class="main-header__item">
+            <a
+              class="<%= path === '/admin/register' ? 'active' : '' %>"
+              href="/admin/register"
+              >Parent</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+  <!-- Content
+  ============================================= -->
+  <section id="content">
+
+    <div class="content-wrap">
+
+      <div class="container clearfix">
+      <div class="postcontent nobottommargin clearfix">
+
+      <h1 style="text-align:center;">Create Match</h1>
+      <div class="container clearfix">
+      <div class="col-md-7">
+      <br> <h2> Parent Details: </h2><br>
+      <form>
+        <h4>Marital Status:</h4>
+        <div>
+          <input id="radio-4" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-4" class="radio-style-1-label">Single (Female)</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">Single (Male)</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-6" class="radio-style-1-label">Couple</label>
+        </div>
+
+        <h4>Net Salary:</h4>
+        <div>
+          <input id="radio-4" class="radio-style" name="radio-group-2" type="radio">
+          <label for="radio-4" class="radio-style-1-label"><15K Dollars/Month</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-2" type="radio">
+          <label for="radio-5" class="radio-style-1-label">15-30K Dollars</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-2" type="radio">
+          <label for="radio-6" class="radio-style-1-label">>30K Dollars</label>
+        </div>
+
+        <h4>Age (Combined if a couple):</h4>
+        <div>
+          <input id="radio-4" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-4" class="radio-style-1-label">Single-45</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">Single-50</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">Single-55</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-6" class="radio-style-1-label">Couple-90</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-6" class="radio-style-1-label">Couple-100</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-6" class="radio-style-1-label">Couple-110</label>
+        </div>
+
+        <h4>Years Married: (0 if not applicable)</h4>
+        <div>
+          <input id="radio-4" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-4" class="radio-style-1-label">0</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">1</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-6" class="radio-style-1-label">2</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-6" class="radio-style-1-label">>2</label>
+        </div>
+      </form> </div>
+
+      <div class="col-md-4">
+      <br><h2> Parent Requirements: </h2><br>
+      <form>
+        <h4>Child Age:</h4>
+        <div>
+          <input id="radio-4" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-4" class="radio-style-1-label"><=4</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">4-10</label>
+        </div>
+        <div>
+          <input id="radio-6" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-6" class="radio-style-1-label">10-18</label>
+        </div>
+
+        <h4>Medical Conditions:</h4>
+        <div>
+          <input id="radio-4" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-4" class="radio-style-1-label">Able bodied</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">Doesn't Matter (Exposed to physcial or mental trauma will also be included)</label>
+        </div>
+
+        <h4>Gender</h4>
+        <div>
+          <input id="radio-4" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-4" class="radio-style-1-label">Girl</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">Boy</label>
+        </div>
+        <div>
+          <input id="radio-5" class="radio-style" name="radio-group-1" type="radio">
+          <label for="radio-5" class="radio-style-1-label">Doesn't Matter</label>
+        </div>
+
+      </form> </div></div>
+    
+
+    </div>
+  </div>
+</div>
+</section>
+</div>
+</body>
+</html>
+
