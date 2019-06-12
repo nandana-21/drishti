@@ -34,3 +34,6 @@ Above 8 upto 18 years	,,     110 years	      ,,                                 
 The minimum age difference between the child and either of the prospective adoptive parents should not be less than twenty five years;
 The age for eligibility will be as on the date of registration of the prospective adoptive parents;
 Couples with more than four children shall not be considered for adoption;
+
+Process OF ADOPTION STEP 1: REGISTRAION  Register in a genuine adoption coordinating agency
+   Never register with multiple agencies  Central & State Governments have recognized adoption agencies in most of the state  Prepare the documentation, submit the same to the agency and get registered. STEP 2: HOME STUDY AND COUNSELING  Home Study at the couple’s residence  Assess the couple’s parenting abilities - applicant’s motivations, preparations, strengths and weaknesses on the issue of Adoption 
