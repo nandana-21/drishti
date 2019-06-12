@@ -66,28 +66,61 @@
 <div class="md-stepper-horizontal orange">
     <div class="md-step active done">
       <div class="md-step-circle"><span>1</span></div>
-      <div class="md-step-title">Checkout</div>
+      <div class="md-step-title">ChilId <%= childid %></div>
+      <div class="md-step-bar-left"></div>
+      <div class="md-step-bar-right"></div>
+    </div>
+    <div class="md-stepper-horizontal orange">
+    <div class="md-step active done">
+      <div class="md-step-circle"><span>1</span></div>
+      <div class="md-step-title">ParentId <%= parentid %></div>
       <div class="md-step-bar-left"></div>
       <div class="md-step-bar-right"></div>
     </div>
     <div class="md-step active editable">
       <div class="md-step-circle"><span>2</span></div>
-      <div class="md-step-title">Shipping</div>
-      <div class="md-step-optional">Optional</div>
+      <div class="md-step-title">Adoption Begin</div>
       <div class="md-step-bar-left"></div>
       <div class="md-step-bar-right"></div>
+        <div class="card__actions">
+            <button class="btn" onClick="AdoptionBegin()">Approve</button>
+        </div>
     </div>
     <div class="md-step active">
       <div class="md-step-circle"><span>3</span></div>
-      <div class="md-step-title">Payment</div>
+      <div class="md-step-title">Agent A</div>
       <div class="md-step-bar-left"></div>
       <div class="md-step-bar-right"></div>
+      <div class="card__actions">
+            <button class="btn" onClick="Agencyverification()">Approve</button>
+        </div>
+    </div>
     </div>
     <div class="md-step">
       <div class="md-step-circle"><span>4</span></div>
-      <div class="md-step-title">Review</div>
+      <div class="md-step-title">Government A</div>
       <div class="md-step-bar-left"></div>
       <div class="md-step-bar-right"></div>
+            <div class="card__actions">
+            <button class="btn" onClick="GovernmentA()">Approve</button>
+        </div>
+    </div>
+       <div class="md-step">
+      <div class="md-step-circle"><span>5</span></div>
+      <div class="md-step-title">Government B</div>
+      <div class="md-step-bar-left"></div>
+      <div class="md-step-bar-right"></div>
+            <div class="card__actions">
+            <button class="btn" onClick="GovernmentB()">Approve</button>
+        </div>
+       <div class="md-step">
+      <div class="md-step-circle"><span>6</span></div>
+      <div class="md-step-title">Agent B</div>
+      <div class="md-step-bar-left"></div>
+      <div class="md-step-bar-right"></div>
+            <div class="card__actions">
+            <button class="btn" onClick="Agencyverification2()">Approve</button>
+        </div>
     </div>
   </div>
 </div>

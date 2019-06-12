@@ -25,7 +25,8 @@ app.use((req, res, next) => {
     pageTitle: "Child",
     path: "/child",
     activeChild: true,
-    productCSS: true
+    productCSS: true,
+    
   });
 });
 

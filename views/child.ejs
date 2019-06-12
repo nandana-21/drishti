@@ -108,7 +108,7 @@
 
         <div class="col-md-7">
         <br><h2> Child Details: </h2><br>
-        <form action="/" method="POST">
+        <form >
           <div>
           <h4>Child Age:</h4>
           <div>
@@ -150,9 +150,6 @@
             <input id="radio-8" class="radio-style" name="radio-group-1" type="radio">
             <label for="radio-8" class="radio-style-1-label">Doesn't Matter</label>
           </div>
-        <div class="card__actions">
-              <button class="btn">Submit</button>
-        </div>
 
         </form> </div>
 
@@ -215,7 +212,7 @@
           <label for="radio-20" class="radio-style-1-label">Couple-110</label>
         </div>
       </form>
-      <form actions="/subDet" method="POST">
+      <form action="/" method="POST">
 
         <h4>Years Married: (0 if not applicable)</h4>
         <div>
@@ -235,13 +232,14 @@
           <label for="radio-24" class="radio-style-1-label">>2</label>
         </div>
         <div class="card__actions">
-              <button class="btn">Submit</button>
+            <button class="btn">Submit</button>
         </div>
-      </form> </div>
-
+        <div class="card__actions">
+            <button class="btn" onClick="Match()">Match</button>
+        </div>
+      </form> 
       </div>
-
-
+      </div>
     </div>
   </div>
 </div>

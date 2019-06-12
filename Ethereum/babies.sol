@@ -113,6 +113,7 @@ contract BabiesWithoutBorders{
     
     address[] public childAdoptions;
     function matchContract(uint childfetchId, uint parentFetchId) public{
+       
         require(chilrenReq[childfetchId].adopMatch == parentRequ[parentFetchId].adopMatch && chilrenReq[childfetchId].adopMatch == 1);
         address parent = childToFetchAddAgent[childfetchId];
         address childAgency = parentToFetchAddAgent[parentFetchId];
